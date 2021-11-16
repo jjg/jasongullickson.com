@@ -6,11 +6,7 @@ draft: false
 tags:
   - preposterous
 ---
-I’ve been actively building a portable version of the [ RAIN Mark II Personal
-Supercomputer ](https://hackaday.io/project/85392-rain-mark-ii-supercomputer-
-trainer) for about a month now. I was going to wait until the work was
-complete to write a post about it, but it’s going so well that I don’t want to
-wait any longer to talk about it.
+I’ve been actively building a portable version of the [RAIN Mark II Personal Supercomputer](https://hackaday.io/project/85392-rain-mark-ii-supercomputer-trainer) for about a month now. I was going to wait until the work was complete to write a post about it, but it’s going so well that I don’t want to wait any longer to talk about it.
 
   
 
