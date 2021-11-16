@@ -13,9 +13,9 @@ So what's next?
 
 ### Preposter.us to Next.js TODO:
 
-* Write a script to export Preposter.us posts as Markdown w/ YAML Front Matter
-* Import Markdown posts into this repository
-* Deploy to staging site
+* ~~Write a script to export Preposter.us posts as Markdown w/ YAML Front Matter~~
+* ~~Import Markdown posts into this repository~~
+* ~~Deploy to staging site~~
 * Point [jasongullickson.com](https://jasongullickson.com) at the new site
 
 I think that's about it.
