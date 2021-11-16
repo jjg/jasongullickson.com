@@ -16,7 +16,9 @@ So what's next?
 * ~~Write a script to export Preposter.us posts as Markdown w/ YAML Front Matter~~
 * ~~Import Markdown posts into this repository~~
 * ~~Deploy to staging site~~
-* Point [jasongullickson.com](https://jasongullickson.com) at the new site
+* ~~Point [jasongullickson.com](https://jasongullickson.com) at the new site~~
+* Clean-up (issues with Markdown hyperlinks, strikethrough, etc.)
+* Import legacy content (everything that wasn't currently on the Preposter.us version of jasongullickson.com
 
 I think that's about it.
 
