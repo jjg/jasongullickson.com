@@ -1,6 +1,6 @@
 ---
 title: 'WebE - Prologue'
-date: '2021-12-14:17:00:00'
+date: '2021-12-14T17:00:00'
 ---
 
 Earlier this month I foreshadowed this post with a cryptic message (as is tradition): 
