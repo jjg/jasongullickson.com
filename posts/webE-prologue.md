@@ -104,7 +104,7 @@ Not only do I object to this based on my experience in building and managing suc
 
 I completely understand why people accept this proposition.  I was once fascinated by the potential of crypto tech, and had this come along when I was still ignorant to its true cost, I might have even participated in bringing it to life.  But fortunately my work trends about ten years ahead of the curve and I've had the advantage of seeing the problems with crypto before it's too late to do something about it (hopefully).
 
-So I propose WebE as an alternative path, one that leads to the benefits of a decentralized web, one that can be programmed by anyone with a modest computer and a web browser.  One that relies on neither tech-giant privacy-consuming cloud providers nor [ponzi-scheming](https://en.wikipedia.org/wiki/Ponzi_scheme) crypto-traders.  A web that brings the "person" back to the democratizing power of personal computers.
+So I propose WebE as an alternative path, one that leads to the benefits of a decentralized web, one that can be programmed by anyone with a modest computer and a web browser.  One that relies on neither tech-giant privacy-consuming cloud providers nor [crypto-traders](https://en.wikipedia.org/wiki/Ponzi_scheme).  A web that brings the "person" back to the democratizing power of personal computers.
 
 The beauty of the Internet is that WebE doesn't have to "beat" Web3, the two can co-exist and you can use either without having to choose sides.  As such you'll see nothing in WebE's design that intends to undermine or "disrupt" Web3.
 
