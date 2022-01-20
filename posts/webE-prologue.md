@@ -1,13 +1,13 @@
 ---
 title: 'WebE - Prologue'
-date: '2021-12-14T17:00:00'
+date: '2022-01-20T17:00:00'
 ---
 
-Earlier this month I foreshadowed this post with a cryptic message (as is tradition): 
+Earlier in December I foreshadowed this post with a cryptic message (as is tradition): 
 
 >There is a movement afoot to bake "crypto" tech into the web in a fundamental way and I think this is a grave mistake.  They are calling this [Web3](https://en.wikipedia.org/wiki/Web3), so I will be calling my alternative **WebE**.
 
-[WebE](https://github.com/jjg/WebE) is Web3 from an alternate universe.  A universe where the web is designed to empower everyone to share and consume creativity and and platform on which to develop new applications to empower both, regardless of means.  It is not a means of [concentrating economic power](https://www.bloomberg.com/news/articles/2021-12-10/web3-is-crypto-s-attempt-to-reinvent-the-internet-here-s-what-you-should-know), or one that favors people with access to the most computing resources.  It is engineered to be resilient against hierarchy and pyramid power structures, and to reduce the impact of computing machinery on the environment.
+[WebE](https://github.com/jjg/WebE) is Web3 from an alternate universe.  A universe where the web is designed to empower everyone to share and consume creativity and a platform on which to develop new applications to empower both, regardless of means.  It is not a means of [concentrating economic power](https://www.bloomberg.com/news/articles/2021-12-10/web3-is-crypto-s-attempt-to-reinvent-the-internet-here-s-what-you-should-know), or one that favors people with access to the most computing resources.  It is engineered to be resilient against hierarchy and other power and control structures, as well as to reduce the impact of computing machinery on life on this planet.
 
 While I'm tempted to dive into the technical details, I believe that a story may be a better way to communicate what is most important about WebE.
 
@@ -17,7 +17,7 @@ In 2012 I started working on an idea to combine the power of web applications wi
 
 The web browser and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) provide a similar environment for software development, but by 2010 building applications for the web was complex and required a diverse set of specialized skills to develop the "front-end" (written in HTML, CSS and JavaScript) and the back-end (written in various other programming languages) as well as the various server software necessary to host such an application.
 
-With the introduction of [Node.js](https://en.wikipedia.org/wiki/Node.js) in 2009 this changed, and it was now possible to use the same programming language (JavaScript) to write the code for both the front and back-end of a web application.  It took a few years before Node.js achieved mainstream adoption, but it has now grown to become the dominant programming environment for web applications (on both ends of the application as well).
+With the introduction of [Node.js](https://en.wikipedia.org/wiki/Node.js) in 2009 this changed, and it was now possible to use the same programming language (JavaScript) to write the code for both the front and back-end of a web application.  It took a few years before Node.js achieved mainstream adoption, but it has since grown to become the dominant programming environment for web applications (on both ends of the application as well).
 
 While this reduced the language complexity footprint, it did little to simplify writing programs for the web, and in some ways it's made it more complex.  It is far and away more complicated than typing a program into an editor and running it.
 
@@ -79,7 +79,7 @@ Often when exploring these systems I find myself thinking how JS/OS could have s
 
 As I said earlier I had mostly "checked-out" of contemporary web development, but when I was asked if I might be interested in a position at a web-focused company, I decided I should take the product for a spin.  Needless to say I was surprisingly delighted, and I've since taken a position at this company and even ported this blog over to their (our?) technology stack.  While I'm not planning to go out and dive head-first into the contemporary world of web app development, the approach we've taken has at its heart some of the same ambitions that I had for JS/OS, and the fact that a company with these goals has become not just financially viable but quite successful is not lost on me.
 
-Beyond just this, as I learned more about the founder of the company it became clear that there is significant overlap in our personal interests and hopes for the future of the web, and that while the implementation of these goals may be different, there is a distinct spiritual overlap in the goals of Vercel and JS/OS.
+Beyond just this, as I learned more about the founder of the company it became clear that there is significant overlap in our personal interests and hopes for the future of the web, and that while the implementation of these goals may be different, there is a distinct spiritual overlap between what we want for the web.
 
 As I began to wade back into the web pool however I was asked what I thought about "Web3".  Being completely ignorant about what Web3 was, and very familiar with what [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0) was, I didn't have a specific opinion but figured it would be something that was going to be defined more by what it wasn't.  
 
@@ -100,18 +100,18 @@ As you can imagine, I disagree.
 
 Not only do I object to this based on my experience in building and managing such systems, I know for a fact that it is unnecessary.  I reject the assertion that the only way to have the freedom provided by a decentralized web is to turn the entire thing into a pyramid scheme, and I believe that if this effort succeeds, it will undermine all of the potential good to humanity the web has to offer.  
 
-> Yes, this is the part of the post where I start to sound like a crazy person, but stick with me, I've been right before.
+> Yes, this is the part of the post where I start to sound like a crazy person, but stick with me, I've been right about things that sounded crazy before...
 
 I completely understand why people accept this proposition.  I was once fascinated by the potential of crypto tech, and had this come along when I was still ignorant to its true cost, I might have even participated in bringing it to life.  But fortunately my work trends about ten years ahead of the curve and I've had the advantage of seeing the problems with crypto before it's too late to do something about it (hopefully).
 
-So I propose WebE as an alternative path, one that leads to the benefits of a decentralized web, one that can be programmed by anyone with a modest computer and a web browser.  One that relies on neither tech-giant privacy-consuming cloud providers or [ponzi-scheming](https://en.wikipedia.org/wiki/Ponzi_scheme_ crypto-traders.  A web that brings the "person" back to the democratizing power of the personal computers.
+So I propose WebE as an alternative path, one that leads to the benefits of a decentralized web, one that can be programmed by anyone with a modest computer and a web browser.  One that relies on neither tech-giant privacy-consuming cloud providers nor [ponzi-scheming](https://en.wikipedia.org/wiki/Ponzi_scheme) crypto-traders.  A web that brings the "person" back to the democratizing power of personal computers.
 
 The beauty of the Internet is that WebE doesn't have to "beat" Web3, the two can co-exist and you can use either without having to choose sides.  As such you'll see nothing in WebE's design that intends to undermine or "disrupt" Web3.
 
-Other than perhaps making it appear obsolete.
+> Other than perhaps making it look obsolete.
 
 From a technical perspective WebE is a direct descendant from my work on JS/OS.  Everything I've learned from building JSFS will be part of WebE, as will everything I've learned and done in the intervening years.  
 
-Over the course of 2022 I will be sharing more detailed information about WebE's architecture, including API specificsions, drafts of protocol specifications and example implementations.  As the name change might suggest, there will be nothing Javascript-specific in WebE's implementation (beyond the fact that at this point browsers only execute Javascript code) and any language, operating system, etc. which can implement the protocol(s) can participate in the architecture.
+Over the course of 2022 I will be sharing more detailed information about WebE's architecture, including API specifications, drafts of protocol specifications and example implementations.  As the name change might suggest, there will be nothing Javascript-specific in WebE's implementation (beyond the fact that at this point browsers only execute Javascript code) and any language, operating system, etc. which can implement the protocol(s) can participate in the architecture.
 
-> I'm very excited to share more with you about WebE, but I want to get the fundamentals right so I don't spoil the fun of anyone ambitious enough to jump in early.  In the meantime know that the initial API will have a lot in common with [JSFS](), so if you want to get a jump on writing WebE programs time spent studying that will not be wasted.
+> I'm very excited to share more with you about WebE, but I want to get the fundamentals right so I don't spoil the fun of anyone ambitious enough to jump in early.  In the meantime know that the initial API will have a lot in common with [JSFS](https://github.com/jjg/jsfs#api), so if you want to get a jump on writing WebE programs time spent studying that will not be wasted.
