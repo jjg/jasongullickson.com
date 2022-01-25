@@ -13,7 +13,8 @@ type Stats struct {
 
 func PostFileCount() int {
 	// TODO: Handle errors.
-	files, _ := os.ReadDir("../posts/") //ioutil.ReadDir("../posts")
+	// TODO: Figure out where the posts live when deployed.
+	files, _ := os.ReadDir(".")
 
 	return len(files)
 }
