@@ -3,16 +3,19 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"net/http"
 )
 
 type Stats struct {
-	TotalPosts int64
+	TotalPosts int
 }
 
-func PostFileCount() int64 {
-	// TODO: Actually the number of files in the posts directory.
-	return 666
+func PostFileCount() int {
+	// TODO: Handle errors.
+	files, _ := ioutil.ReadDir("../posts")
+
+	return len(files)
 }
 
 func GetStats(w http.ResponseWriter, r *http.Request) {
