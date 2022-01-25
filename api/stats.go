@@ -24,5 +24,5 @@ func GetStats(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err) // TODO: Set the HTTP status to reflect an error.
 	}
 
-	fmt.Println(string(res))
+	fmt.Fprintf(w, string(res))
 }
