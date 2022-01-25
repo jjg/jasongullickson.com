@@ -3,8 +3,8 @@ package handler
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"net/http"
+	"os"
 )
 
 type Stats struct {
@@ -13,7 +13,7 @@ type Stats struct {
 
 func PostFileCount() int {
 	// TODO: Handle errors.
-	files, _ := ioutil.ReadDir("../posts")
+	files, _ := os.ReadDir("../posts/") //ioutil.ReadDir("../posts")
 
 	return len(files)
 }
