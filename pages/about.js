@@ -10,7 +10,7 @@ export default function About(){
       </Head>
 
       <h2>About</h2>
-      <p>This jasongullickson.com is the latest incarnation of my personal repository of published work.  I&apos;m currently in the process of building the site and learning <a href="https://nextjs.org/">Next.js</a> in the process.</p>
+      <p>This jasongullickson.com is the latest incarnation of my personal repository of published work.  I&apos;m currently in the process of building the site and learning <a href="https://nextjs.org/">Next.js</a> along the way.</p>
       <p>What you see here is the first phase of importing content from the previous <a href="https://github.com/jjs/preposter.us">preposter.us</a>-based version of my blog.  I will slowly be expanding to include posts and other documents from historical versions of jasongullickson.com.</p>
       <p>In addition, I will be adding experimental features to the site in an effort to expand my knowledge and experience with both Next.js and <a href="https://vercel.com/">Vercel</a> (the current hosting platform for this website).</p>
 
