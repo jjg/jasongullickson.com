@@ -10,7 +10,7 @@ This is the source code for jasongullickson.com.  It's based on the starter temp
 
 ### Start local dev server
 
-`npx next dev`
+`vercel dev`
 
 ## Log
 
