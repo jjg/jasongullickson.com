@@ -1,6 +1,6 @@
 ---
 title: 'Ebookstores'
-date: '2022-28-01'
+date: '2022-01-28'
 ---
 
 For years I've considered purchasing an [e-ink](https://en.wikipedia.org/wiki/Electronic_paper)-based reading device but couldn't quite bring myself to spend the money when I have other ways to do it.  This may partially be due to never getting over how quickly my old e-ink [Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle#Third_generation) died (lasted less than a year) and how disappointing that was as I really loved using it.
