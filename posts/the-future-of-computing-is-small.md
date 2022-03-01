@@ -3,9 +3,7 @@ title: 'The Future of Computing is Small'
 date: '2022-03-01T17:00:00'
 ---
 
-> As the scarcity of our natural resources (including human capacity) become ever more apparent there is an accelerating need to reduce the consumption of these resources.  In addition to simply reducing consumption, we can also improve and expand the use of tools that produce what we want and need from resources which have no natural scarcity. Small computing is an approach to computing that can do both, while at the same time making the power of computing accessible to more people.
-
-> This is the motivation behind **small computing**.
+> As the scarcity of our natural resources (including human capacity) become ever more apparent, there is an accelerating need to reduce the consumption of these resources.  In addition to simply reducing consumption, we can also improve on and expand the use of tools that produce what we want and need out of resources which have no natural scarcity. **Small computing** is an approach that offers both, while making these tools accessible to virtually anyone.
 
 Not specifically physically small (although I suppose that too), but smaller in complexity, smaller in overhead, smaller negative side-effects.
 
