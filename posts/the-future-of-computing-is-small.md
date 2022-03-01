@@ -7,7 +7,7 @@ date: '2022-03-01T17:00:00'
 
 > This is the motivation behind **small computing**.
 
-Not specifically physically small (although I suppose that two), but smaller in complexity, smaller in overhead, smaller negative side-effects.
+Not specifically physically small (although I suppose that too), but smaller in complexity, smaller in overhead, smaller negative side-effects.
 
 I've written about [some of these ideas before](https://www.jasongullickson.com/posts/human-scale-software), but it's something I want to elaborate on because I've been exploring the application of these ideas beyond software development alone.
 
