@@ -1,8 +1,12 @@
-import type { NextFetchEvent, NextRequest } from 'next/server';
+import { NextResponse } from 'next/server'
 
-export default function middleware(
-  request: NextRequest,
-  event: NextFetchEvent
-) {
-  return new Response('Hello, world!');
+export function middleware() {
+  // Store the response so we can modify its headers
+  const response = NextResponse.next()
+
+  // Set custom header
+  response.headers.set('x-edge-function-middleware', 'yup')
+
+  // Return response
+  return response
 }
