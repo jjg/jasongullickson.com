@@ -13,6 +13,11 @@ export async function middleware(req: NextRequest, event: NextFetchEvent) {
       })(),
     );
 
-    return new Response(readable);
+
+    const response = new Response(readable);
+
+    response.headers.set('Cache-Control', 's-maxage=30')
+
+    return response;
 }
 
