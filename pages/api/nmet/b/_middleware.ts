@@ -7,8 +7,18 @@ export async function middleware(req: NextRequest, event: NextFetchEvent) {
       (async () => {
         const writer = writable.getWriter();
         const encoder = new TextEncoder();
+
         writer.write(encoder.encode('Hello from Edge...'));
-        writer.write(encoder.encode('...Streamed!'));
+
+        // Let's try to slowly send a lot of data.
+        var bigResponseSize = 999 * 1024; // Just under 1MB
+
+        for(var i=0; i < bigResponseSize; i++){
+          writer.write(encoder.encode('streaming...'));
+        }
+
+        writer.write(encoder.encode('streaming done!'));
+
         writer.close();
       })(),
     );
