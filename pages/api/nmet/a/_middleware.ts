@@ -5,7 +5,7 @@ export default function middleware(
   event: NextFetchEvent,
 ) {
 
-  var bigStringSize = 20 * 1000 * 1000; // 20MB
+  var bigStringSize = 999 * 1000; // 1KB //20 * 1000 * 1000; // 20MB
   var bigString = "";
 
   for(var i=0;i<bigStringSize;i++){
