@@ -1,7 +1,7 @@
 <script>
   for (let i = 0; i < 30; i++) {
     let before = Date.now();
-    fetch("https://proxy-e2e-middleware.vercel.app/api/edge-function-caching/lambdaapi"+i, {
+    fetch("https://proxy-e2e-middleware.vercel.app/api/edge-function-caching/lambdaapi?foo="+i, {
       cache: "no-cache"
     }).then(() => {
       document.body.textContent += `${Date.now() - before}ms `
