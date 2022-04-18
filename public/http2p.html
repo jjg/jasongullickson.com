@@ -1,0 +1,10 @@
+<script>
+  for (let i = 0; i < 30; i++) {
+    let before = Date.now();
+    fetch("https://www.doona.com/cart.svg?"+i, {
+      cache: "no-cache"
+    }).then(() => {
+      document.body.textContent += `${Date.now() - before}ms `
+    });
+  }
+</script>
