@@ -1,0 +1,9 @@
+---
+title: "Stepbot - Brain Drain"
+date: "2017-03-03"
+---
+
+<div class="content">
+<h1 id="stepbot-brain-drain">Stepbot - Brain Drain</h1>
+<p>As I’ve mentioned before one of my ambitions for Stepbot is to make it work with <a href="http://runmyrobot.com" target="_blank">runmyrobot.com</a>. Using code from their <a href="https://github.com/runmyrobot/runmyrobot" target="_blank">Github repository</a> as a guide, I merged this with <a href="https://github.com/jjg/stepbot" target="_blank">Stepbot’s firmware</a> and after a bit of tweaking, success! <a href="https://www.youtube.com/watch?v=oIGh1R1_qiA" target="_blank">https://www.youtube.com/watch?v=oIGh1R1_qiA</a> However, I ran into a bit of a snag. Although control is working well, I had less luck getting the video feed to work. After re-working the sending script a bit it turned out that ffmpeg (or in my case, avconv) needs more horsepower than my old Raspberry Pi Model B can muster. That, coupled with it being a single-core processor results in the whole system being brought to its knees whenever I try to fire-up the video feed. So, it looks like I’ll have to perform another brain transplant if I want to make this work. The ideal candidate would probably be a <a href="https://www.raspberrypi.org/products/pi-zero-wireless/" target="_blank">Raspberry Pi Zero Wireless</a>, but if the difficulty of getting a hold of a $5 <a href="http://astore.amazon.com/jjg00-20/detail/B01GEHPI0E" target="_blank">Raspberry Pi Zero</a> is any indication, that would probably delay the project indefinitely. Instead I’ll probably just use the Raspberry Pi 2 from Sux0rz until I can find something more suitable. I might also take a look at using my <a href="https://nextthing.co/pages/chip" target="_blank">Next Thing Co. CHIP</a> (although I’m not sure it can provide enough power @5VDC to drive the motors…hmm).</p>
+</div>

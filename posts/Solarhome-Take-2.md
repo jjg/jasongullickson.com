@@ -1,0 +1,18 @@
+---
+title: "Solarhome Take 2"
+date: "2019-01-31"
+---
+
+<div class="content">
+<p>In my <a href="/posts/solarhome-620-first-impression/">previous post</a> I introduced the <a href="https://www.bioliteenergy.com/products/solarhome-620" target="_blank">SolarHome 620</a> and discussed my disappointment in receiving a malfunctioning unit.  I’m excited to say that shortly after contacting Biolite support, they cross-shipped a replacement to me and the new unit is working great (thanks Zach!).</p>
+<p>It’s winter here and unusually cold so my performance expectations for solar-powered equipment this time of year is low.  However, I was pleasantly surprised to find that I could get the BioHome’s solar panel to output almost 50% capacity under these conditions.</p>
+<p><img alt="SolarHome screen displaying panel output of 48%" src="/solarhome_sun.jpg"/></p>
+<p>Throughout the day I moved the panel between several windows to keep it exposed to direct sunlight.  By the end of the day the battery was about 30% charged.  This might not sound like much, but this time of year the sun goes down before dinnertime and our neighbor’s house blocks the sun for a good chunk of the day.</p>
+<p>Having a charged battery gave me a chance to check-out some of the features of the system, but since I really wanted to test the capacity, I didn’t play-around with it too much (I’ll save that for a later post).</p>
+<p><img alt="SolarHome screen displaying battery 24% charged" src="/solarhome_battery.jpg"/></p>
+<p>What I do want is to see how far into the night that 30% charge would get us.  I connected two of the three included lamps (I didn’t want to mess around with the motion-activated light yet) and set both to medium brightness as the sun went down (at this point the unit indicated 30% charge and estimated 4 hours remaining).</p>
+<p>About an hour after the sun set we decided that the medium setting wasn’t sufficient to illuminate the room and switched the lamps to high.  The control unit’s estimate went from 3 hours to “battery almost empty”, but the lights stayed on for another two hours at this setting.</p>
+<p>I’m impressed with the accuracy of the estimations the unit makes in regard to discharge.  It will also estimate charging time, but this fluctuates wildly as the amount of light hitting the panel changes throughout the day.  I’m not sure if this is a simple point-in-time calculation, or if the unit keeps track of day-over-day patterns to produce more accurate measurements (not useful for ad-hoc setups but probably fairly accurate if the panel were located in the same place for a year or more).  Either way there seems to have been considerable thought put into the devices software as well as the hardware.</p>
+<p>So far I’m impressed.  I’ve experimented with a number of DIY solar power setups and a few cheap off-the-shelf units and for the money I haven’t seem something that is as “complete” as the SolarHome.  It will be interesting to see how it performs under “field” conditions (we’ll bring it camping once the weather improves) and I plan on doing more extensive indoor testing to explore the edges of the device’s performance envelope.</p>
+<p>I’m also going to tear it down and see what makes it tick.  There’s an undocumented DIN port (labeled “expansion battery” in the documentation) that I want to document, and I’m curious about the USB ports; do they connect only to USB power or is there perhaps a connection to the device’s microcontroller for setup/debug?  I also want to see if there’s any room inside the case where one might cram some additional functionality…?</p>
+</div>

@@ -1,0 +1,21 @@
+---
+title: "Please, email"
+date: "2018-12-04"
+---
+
+<div class="content">
+<p>At a time when there are dozens of ways to communicate over the Internet, email may seem quaint or antiquated.  It’s often the go-to example of weak privacy (“never put anything you wouldn’t want your mother to read in an email!”), but in light of modern threats to online privacy, email may be the only method of communicating on the Internet you should trust.</p>
+<h1 id="but-email-isn-t-encrypted">but email isn’t encrypted!</h1>
+<p>By default no, Internet email is not encrypted.  This might lead you to believe it is less private than other services which provide “strong end-to-end encryption by default”, but it’s important to understand exactly what this means and how it can be subverted.</p>
+<p>When you send a message to a friend the message is necessarily not encrypted as you author it (otherwise you couldn’t read it on the screen).  When you send an encrypted message, this “cleartext” message is then turned into “cyphertext” using a “key” and transmitted to your friend who then decrypts the message using a key back into cleartext.</p>
+<p>This sounds straightforward but there’s a lot of ways it can go wrong.  First if the system you’re using can read or store the cleartext message before you send it, anyone with access to that system can read your message.  If this system is is a website running on a server you have no control over, that could be a lot of people.</p>
+<p>The same problem exists on the receiving end.  If your friend reads the message on a system you don’t control, the decrypted message could be read by anyone else with access to the system.</p>
+<p>The bottom line is this: whoever holds the encryption keys can read your messages, and in most “secure” messaging systems, the system holds the keys.</p>
+<p>What this comes down to is that if you are to have secure, private communications you need to ensure that the only people who have the keys needed to decrypt a message are the people who you want to read it, and that the decrypted messages only exist on systems that you or your trusted recipient have control over.  Email using public key encryption is the only system I know of that can provide this level of privacy assurance.</p>
+<p>But what about day-to-day communications?  Surely encrypting every message and only communication with people you have exchange keys with isn’t always practical?  Here again email provides a good solution.</p>
+<p>A trusted and properly-configured email server along with properly-configured clients can ensure communication between users of the server are encrypted in transit with no specific effort on the part of the users.  Furthermore, communications between such servers enjoy the same level of protection in transit.</p>
+<p>The key here is “trusted and properly-configured”.  If you are sending email through a server or service you can’t trust, then email’a automatic encryption is fairly meaningless.  For example if you use Gmail, every email you send (and receive) is read by Google AI and used for advertising purposes.  On the other hand if you use your own email server (which is a lot easier to run than most people think), you can get a reasonable level of privacy without resorting to public key encryption.</p>
+<h2 id="what-if-i-don-t-have-anything-to-hide">What if I don’t have anything to hide?</h2>
+<p>Beyond privacy, email allows participants to choose a method of communicating that suits them.  Email is a <em>protocol</em> not a product, and as such there are a wide-range of clients and servers designed to suit a variety of users.  Using an email client of your choosing allows you to write in a comfortable environment free of distractions.  Email doesn’t even require an always-on Internet connection so you can compose your messages off-line, and only receive messages when you feel like it.</p>
+<p>There are many other reasons to choose email when communicating on the Internet (perhaps I’ll do a series that drills deeper into each area?) but for these any many other reasons, when you want to have a meaningful, private electronic conversation with me, <strong><a href="mailto:mr@jasongullickson.com" target="_blank">please, email</a></strong>.</p>
+</div>
